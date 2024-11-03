@@ -90,7 +90,7 @@ const Register = () => {
           {questions[currentStep].type === "textarea" ? (
             <textarea
               name={questions[currentStep].name}
-              value={formData[questions[currentStep].name] || ""}
+              // value={formData[questions[currentStep].name] || ""}
               onChange={handleChange}
               required
               className="bg-transparent w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-200"
@@ -100,7 +100,7 @@ const Register = () => {
             <input
               type={questions[currentStep].type}
               name={questions[currentStep].name}
-              value={formData[questions[currentStep].name] || ""}
+              // value={formData[questions[currentStep].name] || ""}
               onChange={handleChange}
               required
               className="bg-transparent w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-200"

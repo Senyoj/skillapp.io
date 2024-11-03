@@ -20,12 +20,6 @@ const Home = () => {
     { icon: <FaLinkedinIn />, url: "https://www.linkedin.com" },
     { icon: <FaInstagram />, url: "https://www.instagram.com" },
   ];
-  const subscribeRef = useRef<HTMLDivElement | null>(null);
-
-  // Scroll to the subscription section on button click
-  const scrollToSubscribe = () => {
-    subscribeRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
 
   const pricingPackages = [
     {
